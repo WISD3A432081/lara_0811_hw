@@ -1,7 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: admin
- * Date: 2017/10/25
- * Time: 下午 09:14
- */
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class AboutController extends Controller
+{
+    //
+    public function index(){
+               return view('about');
+      }
+}
